@@ -1,0 +1,116 @@
+
+.header {
+  background-color: #00bcd4;  
+  color: white;
+  padding: 2rem;
+  width: 100%;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 70px;
+
+
+}
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-photo {
+  width: 130px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.identity-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.identity-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+.identity-section h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-info {
+  display: flex;
+  gap: 3rem;
+}
+
+.contact-item {
+  flex: 1;
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.contact-icon:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contact-icon svg {
+  color: white;
+  flex-shrink: 0;
+}
+
+.contact-icon a,
+.contact-icon span {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1.5rem 1rem;
+  }
+
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .identity-section h1 {
+    font-size: 2rem;
+  }
+
+  .identity-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-icon {
+    justify-content: center;
+  }
+}

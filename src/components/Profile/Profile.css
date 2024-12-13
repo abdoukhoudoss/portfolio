@@ -1,0 +1,95 @@
+.profile {
+    padding: 4rem 2rem;
+    background-color: var(--background-alt);
+  }
+  
+  .profile-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .profile-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .profile-section {
+    background-color: var(--background);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .profile-section h3 {
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  
+  .profile-section h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary);
+  }
+  
+  .strengths-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .strengths-list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    align-items: flex-start;
+  }
+  
+  .strength-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+  
+  .strength-content strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-main);
+  }
+  
+  .strength-content p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+  }
+  
+  .availability-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .availability-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .availability-icon {
+    font-size: 1.25rem;
+  }
+  
+  @media (max-width: 768px) {
+    .profile {
+      padding: 2rem 1rem;
+    }
+  
+    .profile-content {
+      grid-template-columns: 1fr;
+    }
+  }
