@@ -10,13 +10,6 @@ export const education: Education[] = [
     },
     {
       id: 2,
-      degree: "MASTER 2 RECHERCHE",
-      school: "UNIVERSITE PAUL SABATIER - TOULOUSE",
-      period: "2009 - 2010",
-      specialization: "MECANIQUE DES FLUIDES"
-    },
-    {
-      id: 2,
       degree: "DEUG SCIENCE DE L'INGENIEUR - PREPA CONCOURS",
       school: "UNIVERSITE PAUL SABATIER - TOULOUSE",
       period: "2005 - 2007",
