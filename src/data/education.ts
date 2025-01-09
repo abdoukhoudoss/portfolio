@@ -8,6 +8,7 @@ export const education: Education[] = [
       period: "SEPTEMBRE 2024 - FEVRIER 2025",
       level: "RNCP Niveau 5 - BAC+2"
     },
+  
     {
       id: 2,
       degree: "DEUG SCIENCE DE L'INGENIEUR - PREPA CONCOURS",

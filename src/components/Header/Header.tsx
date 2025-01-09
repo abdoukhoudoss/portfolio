@@ -8,11 +8,7 @@ export const Header = () => {
       <div className="header-content">
         <div className="header-main">
           <div className="profile-section">
-            <img 
-              src={personalInfo.photo} 
-              alt={personalInfo.name} 
-              className="profile-photo"
-            />
+           
             <div className="identity-section">
               <h1>{personalInfo.name}</h1>
               <h2>{personalInfo.title}</h2>
