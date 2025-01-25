@@ -9,6 +9,6 @@ export const technicalSkills: TechnicalSkill[] = [
   ];
   
   export const softSkills: SoftSkill[] = [
-    { id: 1, name: "Créativité - Flexibilté - Curiosité - Leadership - Prise d'intiative" },
-    { id: 2, name: "Ponctualité - Autonomie - Rigueur - Responsabilité - Résilience" }
+    { id: 1, name: "Gestion d'équipe - Management- Communciation - Prise d'intiatives" },
+    { id: 2, name: "Rédaction de procédures - Autonomie - Leadership - Gestion de stock- Résilience" }
   ];

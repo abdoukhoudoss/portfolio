@@ -8,12 +8,22 @@ export const experiences: Experience[] = [
       company: "Programmation Informatique",
       period: "MARS 2018 - NOVEMBRE 2021",
       responsibilities: [
-        "Création sites web via CMS (Wordpress, Drupal)",
+        "Création sites web (HTML, CSS, Javascript, Wordpress, Drupal)",
         "Gestion d'entreprise (factures, devis, relations clients, management d'équipe)"
       ]
     },
     {
       id: 2,
+      position: "Freelance Développeur Web",
+      company: "REPERES",
+      period: "2022 - AUJOURD'HUI",
+      responsibilities: [
+        "Création sites web (HTML, CSS, Javascript, React.js, Node.js)",
+        "Exploitation et gestion de bases de données (SQL) Excel,"
+      ]
+    },
+    {
+      id: 3,
       position: "Réceptionniste",
       company: "Ibis Styles Toulouse Capitole",
       period: "MARS 2023 - AUJOURD'HUI",
@@ -23,7 +33,7 @@ export const experiences: Experience[] = [
       ]
     },
     {
-      id: 3,
+      id: 4,
       position: "Manager Restaurant Rapide",
       company: "Dany's Pizza",
       period: " DECEMBRE 2016 - Août 2022",

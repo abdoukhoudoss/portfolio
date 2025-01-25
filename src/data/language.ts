@@ -6,7 +6,6 @@ export const languages: Language[] = [
     { id: 1, name: "Français", level: "niveau C2" },
     { id: 2, name: "Anglais", level: "niveau A2" },
     { id: 3, name: "Wolof/Maternelle", level: "niveau C2" },
-    { id: 4, name: "Peul", level: "niveau A2" },
   ];
   
 
@@ -16,7 +15,7 @@ export const languages: Language[] = [
     { 
       id: 3, 
       category: "Bénévolat associatif", 
-      details: "Secrétaire Général Association des Sénégalais de Toulouse" 
+      details: "Secrétaire Général Association Massalik : Humanitaire, Education, Culture" 
     }
   ];
   
