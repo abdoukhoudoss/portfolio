@@ -42,5 +42,15 @@ export const experiences: Experience[] = [
         "Gestion d'équipe, management et gestion des stocks"
       ]
     },
+    {
+      id: 5,
+      position: "Professeur de Mathématiques",
+      company: "Lycée Bellevue Toulouse",
+      period: " 2010 - 2012",
+      responsibilities: [
+        "Analyse numérique, algèbre linéaire, géométrie",
+        "Préparation aux concours, suivi des élèves, correction des copies"
+      ]
+    },
     
   ];
